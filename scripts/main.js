@@ -1,10 +1,11 @@
-import { Employees } from "./Employees.js"
+import { Employees, handleEmployeeClick } from "./Employees.js"
 import { Orders } from "./Orders.js"
 import { Products, handleProductClick } from "./Products.js"
 
 const mainContainer = document.querySelector("#container")
 
 document.addEventListener("click", handleProductClick)
+document.addEventListener("click", handleEmployeeClick)
 
 const applicationHTML = `
 <h1>Brewed Awakenings</h1>
