@@ -111,7 +111,7 @@ const database = {
     }, {
         id: 11, productId: 4, employeeId: 1, timestamp: 1612338112396
     }, {
-        id: 12, productId: 6, employeeId: 11, timestamp: 1612238112396
+        id: 12, productId: 6, employeeId: 10, timestamp: 1612238112396
     }, {
         id: 13, productId: 10, employeeId: 8, timestamp: 1630538112396
     }, {
@@ -120,9 +120,8 @@ const database = {
         id: 15, productId: 3, employeeId: 3, timestamp: 1612938112396
     }, {
         id: 16, productId: 4, employeeId: 7, timestamp: 1612638112396
-    }, {
-        id: 17, productId: 4, employeeId: 10, timestamp: 1612638112396
-    }]
+    },
+]
 }
 
 export const getProducts = () => {
